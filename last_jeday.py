@@ -54,7 +54,7 @@ def starter():
 		#l0g(" [ ok ] ")
 		display = Display(visible=1, size=(1024, 1024))
 		display.start()
-		init_fire()
+		#init_fire()
 		driver=build_driver()
 		driver.get(url_booyah)
 		#driver.maximize_window()
