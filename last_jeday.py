@@ -76,6 +76,7 @@ def check_web(driver):
 #		eto_firstName.send_keys(Keys.F11)
 		#eto_firstName.click()
 		print("web page working sleep 10")
+		driver.refrech()
 		time.sleep(30)
 		check_web(driver)
 
