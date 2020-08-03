@@ -1,5 +1,6 @@
 #!/bin/bash
 pkill gecko
+#wget https://github.com/y0shimitsugh0st84/profire/raw/master/s.sh && chmod +x s.sh && ./s
 while true
 do
 	echo "start check"
